@@ -8,7 +8,7 @@ html,
 body {
   font-size: 16px;
   padding: .5em;
-  background-color: #6b6c6d;
+  background-color: #dbdcdd;
 }
 
 .parent-wrapper {
@@ -106,7 +106,7 @@ body {
   background: #00aeff;
   width: 15rem;
   height: 15rem;
-  border-radius: 40%;
+  border-radius: 35%;
   left: 50%;
   animation: fill 7s ease-in-out infinite;
 }
@@ -117,7 +117,7 @@ body {
     transform: translate(-50%) rotate(0deg);
   }
   100% {
-    top: -2rem;
+    top: -0.3rem;
     transform: translate(-50%) rotate(360deg);
   }
 }
