@@ -8,7 +8,7 @@ html,
 body {
   font-size: 16px;
   padding: .5em;
-  background-color: #dbdcdd;
+  background-color: #646464;
 }
 
 .parent-wrapper {
@@ -32,6 +32,8 @@ body {
   background-color: #fff;
   border-radius: 5px;
   width: 24.5%;
+  min-width: 24.5%;
+  max-width: 24.5%;
   height: 15rem;
   margin: 0.2em;
   display: flex;
@@ -44,9 +46,9 @@ body {
 .loader-1 {
   width: 5rem;
   height: 5rem;
-  border-top: 2px solid red;
-  border-right: 2px solid red;
-  border-bottom: 2px solid red;
+  border-top: 2px solid #00aeff;
+  border-right: 2px solid #00aeff;
+  border-bottom: 2px solid #00aeff;
   border-left: 2px solid #dcdcdc;
   border-radius: 50%;
   animation: circular 2s linear infinite;
@@ -66,7 +68,7 @@ body {
 .loader-2 {
   width: 3rem;
   height: 3rem;
-  border: 2px solid #92bb44;
+  border: 2px solid #00aeff;
   border-radius: 50%;
   animation: ripple 1.2s ease-out infinite;
 }
