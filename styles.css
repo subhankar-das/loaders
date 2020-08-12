@@ -8,7 +8,7 @@ html,
 body {
   font-size: 16px;
   padding: .5em;
-  background-color: #646464;
+  background-color: rgb(214, 214, 214);
 }
 
 .parent-wrapper {
@@ -29,7 +29,7 @@ body {
 
 .box {
   position: relative;
-  background-color: #fff;
+  background-color: #fafafc;
   border-radius: 5px;
   width: 24.5%;
   min-width: 24.5%;
