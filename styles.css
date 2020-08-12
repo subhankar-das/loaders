@@ -14,6 +14,7 @@ body {
 .parent-wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .loader-title {
@@ -30,7 +31,7 @@ body {
   position: relative;
   background-color: #fff;
   border-radius: 5px;
-  width: 25%;
+  width: 24.5%;
   height: 15rem;
   margin: 0.2em;
   display: flex;
